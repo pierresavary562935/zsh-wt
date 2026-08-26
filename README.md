@@ -21,7 +21,7 @@ Requires zsh, git, and [fzf](https://github.com/junegunn/fzf) 0.38 or newer.
 Manual:
 
 ```sh
-git clone https://github.com/OWNER/zsh-wt.git ~/.zsh-wt
+git clone https://github.com/pierresavary562935/zsh-wt.git ~/.zsh-wt
 echo 'source ~/.zsh-wt/wt.plugin.zsh' >> ~/.zshrc
 ```
 
@@ -30,11 +30,11 @@ Or run `./install.sh` from the clone, which appends that line for you.
 Oh My Zsh:
 
 ```sh
-git clone https://github.com/OWNER/zsh-wt.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/wt
+git clone https://github.com/pierresavary562935/zsh-wt.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/wt
 # then add wt to plugins=(...) in ~/.zshrc
 ```
 
-zinit: `zinit light OWNER/zsh-wt` — antidote/antigen: `antidote bundle OWNER/zsh-wt`.
+zinit: `zinit light pierresavary562935/zsh-wt` — antidote/antigen: `antidote bundle pierresavary562935/zsh-wt`.
 
 ## Use
 
